@@ -1,0 +1,51 @@
+[0 FP] Nicht-optionale Spalten sind gekennzeichnet
+[0 FP] Bilddaten werden geprüft (nur PNG-Bilddaten möglich)
+[0 FP] Vorgabe bzgl. nicht-leerer Zeichenketten umgesetzt
+[0 FP] Vorgaben bzgl. ASCII-Zeichen umgesetzt
+[1 FP] Vorgaben zur E-Mail-Adresse umgesetzt
+- Format x.y@z wird nicht eingehalten
+[0 FP] Format von Datumsangaben bzw. Uhrzeitangaben wird eingehalten
+[0 FP] Geldbeträge und Prozentwerte haben maximal 2 Nachkommastellen
+[0 FP] Wertebereiche, die nur aus Zahlen bestehen, müssen ggf. hinsichtlich des Vorzeichens und/oder der In- bzw. Exkludierung der 0 eingeschränkt werden
+[0 FP] Schlüsselkandidaten (außer solche mit BLOB's) sind gekennzeichnet (UNIQUE)
+[0 FP] Modifikationen (Bearbeiten/Löschen) bei nicht-künstlichen PKs werden kaskadiert
+[0 FP] Jedes Attribut (Datentyp VARCHAR + Element Schlüsselkandidat) sowie jede E-Mail-Adresse und jede URI sind case-insensitive
+[0 FP] Jede Tabelle hat genau einen Primärschlüssel
+
+Weitere vorgegebene Sachverhalte
+
+[0 FP] Passwort: mind. 4 Zeichen / mind. eine Ziffer u. ein Großbuchstabe (lat. Alphabet) / keine zwei Ziffern hintereinander
+[0 FP] Befreiung Jahresbeitrag / Ausleihenstatus sind BOOLEANs
+[0 FP] Telefonnummer (Bibliothekar) beginnt mit '0049'
+[0 FP] Genrebezeichnung besteht nur aus Zeichen des lat. Alphabets
+[0 FP] Medium hat den Wertebereich {Hardcover, Softcover, CD, DVD}
+[0 FP] Ausleihbeginn ist kleiner-gleich Ausleihende
+[0 FP] Ein aktuell ausgeliehenes Exemplar kann nicht erneut ausgeliehen werden
+[0 FP] Solange eine Adresse mehr als einem Kunden zugeordnet ist, kann diese nicht geändert werden
+[0 FP] Maximal 5 Ausleihen gleichzeitig je Kunde
+
+Falsche Datentypen
+
+[0 FP] -
+
+Individuelle Fehler
+
+[3 FP] -
+- Die abgegebene Datenbank ist leer
+- Zu Query 1: Es sollte mehr ausgegeben werden, als nur ISBN.
+- Zu Query 3: Wenn ein Kunde mit Nachnamen Musk existiert, der keine Exemplare ausgeliehen hat, wird dieser in der Query 3 nicht ausgegeben. [  
+INSERT INTO Nutzer ( Email, Name, Nachname, Geburtsdatum, Passwort ) VALUES ( 'new@musk.de', 'Marcel', 'Musk', '1996-03-02 00:00:00', 'A3fwfw' );
+INSERT INTO Kunde ( Email, Guthaben, Befreiung, Adresse_id ) VALUES ( 'new@musk.de', 10.0, 0, 2 );  
+hinzufügen]
+
+Anmerkungen
+
+-
+
+Bewertung
+
+[4 FP] => Bestanden
+
+Hinweis: Bitte wenden Sie sich bei Fragen zur Korrektur direkt an Ihren zuständigen Korrektor. Nutzen Sie hierfür bitte die Sprechstunden.
+
+Korrigiert von Olexiy Chornovil

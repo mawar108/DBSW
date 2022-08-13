@@ -1,0 +1,33 @@
+Schwere Fehler:
+
+***
+
+Mittlere Fehler:
+
+** 
+
+Leichte Fehler:
+
+* 
+Keine Fehlern
+
+Bewertung:
+
+*** - Schwere Fehler
+**  - Mittlere Fehler
+*   - Leichte Fehler
+
+Hinweise: 
+
+- Bitte wenden Sie sich bei konkreten Fragen zur Korrektur direkt an Ihren zuständigen Korrektor. Nutzen Sie hierfür bitte die Sprechstunden.
+
+Legende:
+
+PK - Primärschlüssel
+FK - Fremdschlüssel
+
+Gesamtbewertung des Projektteils:
+
+Bestanden.
+
+- Korrigiert durch Olexiy Chornovil

@@ -1,0 +1,26 @@
+Schwere Fehler:
+
+***
+
+Mittlere Fehler:
+
+** Falsche Modellierung der Ausleihe: Die Ausleihe muss über eine separate Entität "Ausleihe" modelliert werden (bei Dir kann ein Kunde ein Exemplar nur höchstens ein Mal ausleihen). Ein entsprechender Lösungsansatz wird in den kommenden Sprechstunden gezeigt werden.
+
+Leichte Fehler:
+
+* Attribut Telefonnr. bei dem Nutzer ist überflüssig/falsch, da aus dem Anwendungsszenario gar nicht folgt, dass ein nutzer sein Telefonnummer hinterlassen soll.
+* Falsche Kardinalität: zwischen "Artikel" und "gehört" (Genre) ([0,*] ist hier korrekt)
+
+Bewertung:
+
+*** - Schwere Fehler
+**  - Mittlere Fehler
+*   - Leichte Fehler
+
+Hinweise: 
+
+- Bitte wenden Sie sich bei konkreten Fragen zur Korrektur direkt an Ihren zuständigen Korrektor. Nutzen Sie hierfür bitte die Sprechstunden.
+
+Gesamtbewertung des Projektteils:
+
+Bestanden.

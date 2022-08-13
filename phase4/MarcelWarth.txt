@@ -1,0 +1,14 @@
+- 1 FP bei Schritt 'Exemplare anzeigen' (Anmerkung: Bei der Ausgabe der
+Exemplare wird ein Wert "null" für ArtikelID ausgegeben.)
+
+Anmerkungen
+
+-
+
+Bewertung
+
+[1 FP] => 1.0 - sehr gut
+
+Hinweis: Bitte wenden Sie sich bei Fragen zur Korrektur direkt an Ihren zuständigen Korrektor. Nutzen Sie hierfür bitte die Sprechstunden.
+
+Korrigiert von Olexiy Chornovil

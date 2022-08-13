@@ -1,0 +1,1 @@
+Telefonnr bei Bibiliothekar Unique da im Text stand das die Nummer immer einem Bibiliothekar zugeordnet ist und somit ist es Unique
